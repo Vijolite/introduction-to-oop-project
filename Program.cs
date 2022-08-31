@@ -9,15 +9,20 @@ namespace Introduction_To_OOP
     { 
     public static void Main()
         {
-            Bird myBird = new Bird("Tweety", "Yellow");
-            myBird.Speak();
-            myBird.Fly();
 
             Pigeon pippa = new Pigeon("Pippa", "Grey");
             pippa.Speak();
             pippa.Fly();
             pippa.EatPizza();
             pippa.Sleep();
+
+            Penguin pingu = new Penguin("Pingu", "Black & White");
+            pingu.Speak();
+            pingu.Fly();
+
+            Parrot parry = new Parrot("Parry", "Colourful");
+            parry.Speak();
+            parry.Fly();
 
         }
     }

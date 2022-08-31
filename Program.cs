@@ -33,6 +33,16 @@ namespace Introduction_To_OOP
             parry.DoTheCaterpillar();
             parry.Jump();
 
+            var birds = new List<Bird>();
+            birds.Add(pippa);
+            birds.Add(pingu);
+            birds.Add(parry);
+            Console.WriteLine("Birds conversation:");
+            foreach (var b in birds) 
+            {
+                b.Speak();
+            }
+
         }
     }
 }

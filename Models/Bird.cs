@@ -1,13 +1,5 @@
 namespace Models
 {
-
-public interface IDance
-{
-    void Spin();
-    void DoTheCaterpillar();
-    void Jump();
-}
-
 public abstract class Bird : IDance
 {
     public string Name { get; private set; }

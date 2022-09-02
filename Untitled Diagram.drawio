@@ -1,1 +1,169 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T19:38:23.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yNGcwXVwqnbAN_gFUy8y" version="20.2.8" type="github"><diagram id="OkNkEKW_dE7AfueSrFZF" name="Page-1">dZHBEoIgEIafhrtCY3U2q0snD50Z2YQZdBmk0Xr6dECNsU4s3/4L++8SljfDxXIjbyhAE5qIgbAToTRNs2w8JvLy5EB3HtRWiSBaQaneEGAS6FMJ6CKhQ9ROmRhW2LZQuYhxa7GPZQ/U8a+G17ABZcX1lt6VcHJ2sV/5FVQt3WL46DMNn8XBSSe5wP4LsYKw3CI6HzVDDnoa3jwXX3f+k10as9C6HwVjsL49XqINseID</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-02T20:08:28.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JkA1o2Me6WrITRXmsH7F" version="20.2.8" type="github">
+  <diagram id="OkNkEKW_dE7AfueSrFZF" name="Page-1">
+    <mxGraphModel dx="1166" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-5" value="Bird" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-6" value="# Name: string&#xa;# Color: string&#xa;&#xa;+Speak(): void&#xa;+Fly: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-5">
+          <mxGeometry y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-11" value="Ex 2.3 - Class Bird" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-14" value="Ex 3.2&amp;nbsp; - Class Pigeon inherit from Bird" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-15" value="Bird" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-16" value="# Name: string&#xa;# Color: string&#xa;&#xa;+Speak(): void&#xa;+Fly(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-15">
+          <mxGeometry y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-17" value="Pigeon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-18" value="&#xa;+EatPizza(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-17">
+          <mxGeometry y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="430" as="sourcePoint" />
+            <mxPoint x="99.5" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="99.5" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-20" value="Ex 4.3 - Class Pigeon inherit from abstract class Bird" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="560" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-21" value="Bird" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-22" value="# Name: string&#xa;# Color: string&#xa;&#xa;+Fly(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-21">
+          <mxGeometry y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-26" value="+Speak(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=2" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-21">
+          <mxGeometry y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-23" value="Pigeon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-24" value="&#xa;+EatPizza(): void&#xa;+Sleep(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-23">
+          <mxGeometry y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="810" as="sourcePoint" />
+            <mxPoint x="99.5" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="99.5" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-27" value="Ex 4.6 - Classes Pigeon and Penguin inherit from abstract class Bird" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="10" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-28" value="Bird" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-29" value="# Name: string&#xa;# Color: string&#xa;&#xa;+Fly(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-28">
+          <mxGeometry y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-30" value="+Speak(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=2" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-28">
+          <mxGeometry y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-31" value="Pigeon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-32" value="+Speak(): void&#xa;+EatPizza(): void&#xa;+Sleep(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-31">
+          <mxGeometry y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="260" as="sourcePoint" />
+            <mxPoint x="414" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-34" value="Penguin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-35" value="+Speak(): void&#xa;+Fly(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-34">
+          <mxGeometry y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="260" as="sourcePoint" />
+            <mxPoint x="500" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-37" value="Ex 5.1 - Class bird inherit from the Interface Dance&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="480" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-38" value="Bird" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="419" y="700" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-39" value="# Name: string&#xa;# Color: string&#xa;&#xa;+Fly: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-38">
+          <mxGeometry y="40" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-40" value="+Speak(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=2" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-38">
+          <mxGeometry y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-41" value="Pigeon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="339" y="910" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-42" value="+Speak: void&#xa;+EatPizza(): void&#xa;+Sleep(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-41">
+          <mxGeometry y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="433" y="910" as="sourcePoint" />
+            <mxPoint x="433" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="433" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-44" value="Penguin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="499" y="910" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-45" value="+Speak: void&#xa;+Fly: void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-44">
+          <mxGeometry y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-46" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519" y="910" as="sourcePoint" />
+            <mxPoint x="519" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="519" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-47" value="&lt;&lt;interface&gt;&gt;&#xa;Dance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-48" value="+Spin(): void&#xa;+doTheCatepillar(): void&#xa;+jump(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="T7yvds5uXxKXwb6I8ANa-47">
+          <mxGeometry y="40" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T7yvds5uXxKXwb6I8ANa-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="478.5" y="700" as="sourcePoint" />
+            <mxPoint x="478.5" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="478.5" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
